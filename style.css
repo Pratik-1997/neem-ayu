@@ -299,47 +299,6 @@ ul {
     display: none;
 }
 
-/* Media query */
-@media only screen and (max-width: 800px) {
-    nav ul {
-        position: absolute;
-        top: 70px;
-        left: 0;
-        background: #333;
-        width: 100%;
-        overflow: hidden;
-        transition: max-height 0.5s;
-    }
-
-    nav ul li {
-        display: block;
-        margin-right: 50px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    nav ul li a {
-        color: #fff;
-    }
-
-    .menu-icon {
-        display: block;
-        cursor: pointer;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .row {
-        text-align: center;
-    }
-
-    .col-2,
-    .col-3,
-    .col-4 {
-        flex-basis: 100%;
-
-    }
-}
 
 /* New Css */
 #MenuItems li a {
@@ -408,7 +367,6 @@ ul {
     padding: 10px 20px !important;
     border-radius: 100px;
     color: #00000078;
-    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 400;
     -webkit-appearance: none;
@@ -426,7 +384,6 @@ ul {
     right: 0;
     border-radius: 100px;
     border: none !important;
-    font-family: Roboto, sans-serif;
     font-weight: 400;
     background-color: #ff523b !important;
     color: #fff !important;
@@ -440,4 +397,83 @@ ul {
 
 section {
     padding: 30px 0;
+}
+.cat-features .col-3 {
+    height: 350px;
+}
+.cat-features .col-3 img {
+    height: 350px;
+}
+
+.spotlight img {
+    height: calc(100vh - 82px);
+    width: 100%;
+}
+.mob-ban {
+    display: none;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    color: #ff523b;
+    font-size: 2rem;
+}
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-prev:after {
+    color: #ff523b;
+    font-size: 2rem;
+}
+/* Media query */
+@media only screen and (max-width: 800px) {
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        color: #fff;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+    .features .blocks {
+        flex-wrap: wrap;
+    }
+    .features .blocks .single-block {
+        width: 45%;
+    }
+    .Newsletter__Inner {
+        width: 320px;
+    }
+    .mob-ban {
+        display: block;
+    }
+    .desk-ban {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .row {
+        text-align: center;
+    }
+
+    .col-2,
+    .col-3,
+    .col-4 {
+        flex-basis: 100%;
+
+    }
 }

@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    
+
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
@@ -52,25 +52,41 @@
 
     <!-- spotlight start -->
     <div class="spotlight">
-        <div class="spotlight-container">
-          <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="single-slide">
-                    <img src="./images/banner.png" alt="" class="img-fluid">
-
-                </div>
+      <div class="spotlight-container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="single-slide">
+                <img
+                  src="./images/banner.png"
+                  alt=""
+                  class="img-fluid desk-ban"
+                />
+                <img
+                  src="./images/bannermob.jpg"
+                  alt=""
+                  class="img-fluid mob-ban"
+                />
               </div>
-              <div class="swiper-slide">
-                <div class="single-slide">
-                    <img src="./images/banner2.png" alt="" class="img-fluid">
-
-                </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="single-slide">
+                <img
+                  src="./images/banner2.png"
+                  alt=""
+                  class="img-fluid desk-ban"
+                />
+                <img
+                  src="./images/banner2mob.jpg"
+                  alt=""
+                  class="img-fluid mob-ban"
+                />
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
     <!-- spotlight end -->
 
     <!-- Featured Items -->
@@ -101,82 +117,6 @@
       </div>
     </section>
 
-    <!-- Product Displayer -->
-    <!-- Featured Categories -->
-    <section class="categories">
-      <div class="small-container">
-        <div class="row">
-          <div class="col-3">
-            <img src="images/category-1.jpg" alt="" />
-          </div>
-          <div class="col-3">
-            <img src="images/category-2.jpg" alt="" />
-          </div>
-          <div class="col-3">
-            <img src="images/category-3.jpg" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Featured Categories -->
-
-    <!-- Featured Products -->
-    <section>
-      <div class="small-container">
-        <h2 class="title">Featured Products</h2>
-        <div class="row">
-          <div class="col-4">
-            <img src="images/product-1.jpg" alt="" />
-            <h4>REd Printed T shirt</h4>
-            <div class="rating">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star-o"></i>
-            </div>
-            <p>$50.00</p>
-          </div>
-          <div class="col-4">
-            <img src="images/product-2.jpg" alt="" />
-            <h4>SparX Shoes</h4>
-            <div class="rating">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star-o"></i>
-            </div>
-            <p>$10.00</p>
-          </div>
-          <div class="col-4">
-            <img src="images/product-3.jpg" alt="" />
-            <h4>Casual Trousersx</h4>
-            <div class="rating">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star-half-o"></i>
-              <i class="fa fa-star-o"></i>
-            </div>
-            <p>$20.00</p>
-          </div>
-          <div class="col-4">
-            <img src="images/product-4.jpg" alt="" />
-            <h4>REd Printed Polo T shirt</h4>
-            <div class="rating">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star-o"></i>
-            </div>
-            <p>$50.00</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- offer -->
     <section class="offer">
       <div class="small-container">
@@ -197,93 +137,217 @@
       </div>
     </section>
 
+    <!-- Product Displayer -->
+
+    <!-- Featured Products -->
+    <section>
+      <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+          <div class="swiper feature-prod-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="col-4 text-center">
+                  <img src="images/prod1.jpg" class="img-fluid" alt="" />
+                  <h4>Face Cream</h4>
+                  <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                  </div>
+                  <p>$50.00</p>
+                </div>
+                </div>
+            
+              <div class="swiper-slide"><div class="col-4 text-center">
+                <img src="images/prod1.jpg" class="img-fluid" alt="" />
+                <h4>Face Cream</h4>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+              </div></div>
+            
+              <div class="swiper-slide"><div class="col-4 text-center">
+                <img src="images/prod1.jpg" class="img-fluid" alt="" />
+                <h4>Face Cream</h4>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+              </div></div>
+            
+            <div class="swiper-slide"><div class="col-4 text-center">
+              <img src="images/prod1.jpg" class="img-fluid" alt="" />
+              <h4>Face Cream</h4>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+              <p>$50.00</p>
+            </div></div>
+          </div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+            </div>
+          
+           
+          
+        </div>
+      </div>
+    </section>
+    <!-- Featured Categories -->
+    <section class="categories">
+      <div class="small-container">
+        <div class="row cat-features">
+          <div class="col-3">
+            <img src="images/1g.jpg" alt="" />
+          </div>
+          <div class="col-3">
+            <img src="images/2g.jpg" alt="" />
+          </div>
+          <div class="col-3">
+            <img src="images/3g.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Featured Categories -->
+
     <!-- Testimonial  -->
     <section class="testimonial">
       <h2 class="title">Reviews</h2>
       <div class="small-container">
-        <div class="row">
-          <div class="col-3">
-            <i class="fa fa-quote-left"></i>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
-              aspernatur alias facere hic, aut magnam veritatis soluta sint
-              harum ipsam recusandae minima unde molestias? Vel!
-            </p>
-            <div class="rating">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star-o"></i>
-              <i class="fa fa-star-o"></i>
+      <div class="swiper testimonial-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="col-3">
+              <i class="fa fa-quote-left"></i>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Saepe aspernatur alias facere hic, aut magnam veritatis soluta
+                sint harum ipsam recusandae minima unde molestias? Vel!
+              </p>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+              <img src="images/user-1.png" alt="" />
+              <h3>Sean Parker</h3>
             </div>
-            <img src="images/user-1.png" alt="" />
-            <h3>Sean Parker</h3>
-          </div>
-          <div class="col-3">
-            <i class="fa fa-quote-left"></i>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
-              aspernatur alias facere hic, aut magnam veritatis soluta sint
-              harum ipsam recusandae minima unde molestias? Vel!
-            </p>
-            <div class="rating">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
             </div>
-            <img src="images/user-2.png" alt="" />
-            <h3>Bruce Banter</h3>
-          </div>
-          <div class="col-3">
-            <i class="fa fa-quote-left"></i>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
-              aspernatur alias facere hic, aut magnam veritatis soluta sint
-              harum ipsam recusandae minima unde molestias? Vel!
-            </p>
-            <div class="rating">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star-o"></i>
+            <div class="swiper-slide">
+              <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Saepe aspernatur alias facere hic, aut magnam veritatis soluta
+                  sint harum ipsam recusandae minima unde molestias? Vel!
+                </p>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                </div>
+                <img src="images/user-1.png" alt="" />
+                <h3>Sean Parker</h3>
+              </div>
             </div>
-            <img src="images/user-3.png" alt="" />
-            <h3>Diana Shuan</h3>
-          </div>
+            <div class="swiper-slide">
+              <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Saepe aspernatur alias facere hic, aut magnam veritatis soluta
+                  sint harum ipsam recusandae minima unde molestias? Vel!
+                </p>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <img src="images/user-2.png" alt="" />
+                <h3>Bruce Banter</h3>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Saepe aspernatur alias facere hic, aut magnam veritatis soluta
+                  sint harum ipsam recusandae minima unde molestias? Vel!
+                </p>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                </div>
+                <img src="images/user-3.png" alt="" />
+                <h3>Diana Shuan</h3>
+              </div>
+            </div>
         </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+       
       </div>
     </section>
 
     <!-- Subscribption -->
     <section class="subscribtion">
-      <div class="text-center">
-        <h2 class="title">What We Do</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-          praesentium repellendus molestias illum minus ipsa.
-        </p>
-      </div>
-      <div class="Newsletter__Inner">
-        <input
-          type="email"
-          name="contact[email]"
-          class="Form__Input"
-          aria-label="Your email address"
-          placeholder="Your email address"
-          required="required"
-        />
-        <button type="button" class="Form__Submit Button Button--primary">
-          Subscribe
-        </button>
+      <div class="small-container">
+        <div class="text-center">
+          <h2 class="title">What We Do</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+            praesentium repellendus molestias illum minus ipsa.
+          </p>
+        </div>
+        <div class="Newsletter__Inner">
+          <input
+            type="email"
+            name="contact[email]"
+            class="Form__Input"
+            aria-label="Your email address"
+            placeholder="Your email address"
+            required="required"
+          />
+          <button type="button" class="Form__Submit Button Button--primary">
+            Subscribe
+          </button>
+        </div>
       </div>
     </section>
 
     <!-- Brands   -->
     <div class="footer">
-      <div class="container">
+      <div class="small-container">
         <div class="row">
           <div class="footer-col-1">
             <h3>Download our App</h3>
@@ -301,16 +365,6 @@
             </p>
           </div>
 
-          <div class="footer-col-3">
-            <h3>Useful links</h3>
-            <ul>
-              <li>Coupons</li>
-              <li>Blog Post</li>
-              <li>Return Policy</li>
-              <li>Join Affiliate</li>
-            </ul>
-          </div>
-
           <div class="footer-col-4">
             <h3>Follow us on</h3>
             <ul>
@@ -322,7 +376,7 @@
           </div>
         </div>
         <hr />
-        <p class="copyright">Copyright 2020 - pk</p>
+        <p class="copyright">Copyright 2024</p>
       </div>
     </div>
 
@@ -340,8 +394,8 @@
         }
       }
     </script>
-      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
