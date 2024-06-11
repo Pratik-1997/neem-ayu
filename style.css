@@ -349,6 +349,9 @@ ul {
     width: 100%;
 }
 
+#loom-companion-mv3 {
+    display: none !important;
+}
 
 .features .blocks {
     display: flex;
