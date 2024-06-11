@@ -15,12 +15,12 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
       crossorigin="anonymous"
-    />
+    /> -->
     <title>E-commerce Website</title>
   </head>
   <body>
@@ -28,7 +28,7 @@
       <div class="container">
         <div class="navbar">
           <div class="logo">
-            <img src="images/logo.png" width="125px" alt="" />
+            <p class="logoText">NeemAyu</p>
           </div>
           <nav>
             <ul id="MenuItems">
@@ -84,6 +84,7 @@
               </div>
             </div>
           </div>
+          <div class="swiper-pagination"></div>
         </div>
       </div>
     </div>
@@ -125,13 +126,23 @@
             <img class="offer-img" src="images/exclusive.png" alt="" />
           </div>
           <div class="col-2">
-            <p>Exclusive Availabe on Redstore</p>
-            <h1>Smart Band 4</h1>
+            <p>Exclusive Availabe on NeemAyu</p>
+            <h1>Face Care Oil</h1>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Consequatur tempore nihil incidunt iure possimus inventore.
             </p>
-            <a href="#" class="btn">Buy Now &#8594;</a>
+            <div class="counter-block">
+              <span class="minus">-</span>
+              <span class="count">1</span>
+              <span class="plus">+</span>
+              
+            </div>
+            <div class="two-btns-cta">
+              <a href="#" class="btn">Buy Now &#8594;</a>
+              <a href="#" class="btn btn2">Add to Cart &#8594;</a>
+            </div>
+            
           </div>
         </div>
       </div>
@@ -334,7 +345,6 @@
             type="email"
             name="contact[email]"
             class="Form__Input"
-            aria-label="Your email address"
             placeholder="Your email address"
             required="required"
           />
@@ -349,6 +359,15 @@
     <div class="footer">
       <div class="small-container">
         <div class="row">
+          <div class="footer-col-2">
+            <div class="logo">
+              <p class="logoText">NeemAyu</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio
+              nam iste modi eveniet dicta deserunt?
+            </p>
+          </div>
           <div class="footer-col-1">
             <h3>Download our App</h3>
             <p>Download app of ios and android</p>
@@ -357,43 +376,35 @@
               <img src="images/app-store.png" alt="" />
             </div>
           </div>
-          <div class="footer-col-2">
-            <img src="images/logo-white.png" alt="" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio
-              nam iste modi eveniet dicta deserunt?
-            </p>
-          </div>
+         
 
           <div class="footer-col-4">
             <h3>Follow us on</h3>
-            <ul>
-              <li>Facebook</li>
-              <li>Twitter</li>
-              <li>Instagram</li>
-              <li>Youtube</li>
-            </ul>
+            <ul itemscope="" itemtype="http://www.schema.org/SiteNavigationElement" class="footerSociaWrap"><li itemprop="name">
+              <a itemprop="url" href="#">
+                  <img src="./images/facebookColor.svg" alt="facebook" width="79" height="150" loading="lazy"></a>
+         </li>
+         <li itemprop="name">
+              <a itemprop="url" href="#">
+                   <img src="./images/instagramColor.svg" alt="Instagram" width="19" height="19" loading="lazy"></a>
+         </li>
+         <li itemprop="name">
+              <a itemprop="url" href="#">
+                   <img src="./images/twitter-xColor.svg" alt="Twiter" width="20" height="19" loading="lazy"></a>
+         </li>
+         <li itemprop="name">
+              <a href="" class="youtube" >
+                   <img src="./images/youtubeColor.svg" alt="you tube" width="25" height="18" loading="lazy"></a>
+         </li>
+    </ul>
           </div>
         </div>
         <hr />
-        <p class="copyright">Copyright 2024</p>
+        <p class="copyright">© Neem Ayu. All Rights Reserved</p>
       </div>
     </div>
 
     <!-- javascript for toggle menu-->
-    <script>
-      var MenuItems = document.getElementById("MenuItems");
-
-      MenuItems.style.maxHeight = "0px";
-
-      function menutoggle() {
-        if (MenuItems.style.maxHeight == "0px") {
-          MenuItems.style.maxHeight = "200px";
-        } else {
-          MenuItems.style.maxHeight = "0px";
-        }
-      }
-    </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="./main.js"></script>

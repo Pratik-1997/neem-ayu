@@ -1,8 +1,21 @@
+var MenuItems = document.getElementById("MenuItems");
+
+MenuItems.style.maxHeight = "0px";
+
+function menutoggle() {
+  if (MenuItems.style.maxHeight == "0px") {
+    MenuItems.style.maxHeight = "200px";
+  } else {
+    MenuItems.style.maxHeight = "0px";
+  }
+}
+
 // Spotlight
 var swiper = new Swiper(".mySwiper", {
     pagination: {
       el: ".swiper-pagination",
-      type: "fraction",
+      clickable: true,
+      type: 'bullets',
     },
     navigation: {
       nextEl: ".swiper-button-next",
